@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecting Data</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <form action="processform.php" method="post" class="formbox">
+
+        <div class="inner-form">
+
+            <h2>Contact Us</h2>
+
+            <div>
+                <input class="ele" type="text" name="first_name" placeholder="Enter Your First Name" required>
+            </div>
+            <div>
+                <input class="ele" type="text" name="last_name" placeholder="Enter Your Last Name" required>
+            </div>
+            <div>
+                <input class="ele" type="email" name="email" placeholder="Enter Your Email " required>
+            </div>
+            <div class="label">
+                <label for="department">Department</label><br />
+                <select name="department" class="select">
+                    <option>Select Department</option>
+                    <option>HR</option>
+                    <option>Marketing</option>
+                    <option>Board </option>
+                    <option>Kitchen</option>
+                </select>
+            </div>
+            <div class="label">
+                <label for="gender">Gender</label><br />
+                <input class="radio" type="radio" name="gender" /> Female
+                <input class="radio" type="radio" name="gender" /> Male
+            </div>
+            <div class="label">
+                <textarea name="comment" class="text" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="label">
+                <input type="checkbox" name="terms" required /> By Checking this box you agree to our terms and
+                conditions
+            </div>
+            <div class="pa">
+                <input type="submit" class="button" value="Send a Message" name="submit">
+            </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

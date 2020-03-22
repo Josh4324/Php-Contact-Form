@@ -1,0 +1,66 @@
+.formbox {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.inner-form {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ele {
+    margin: auto;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    height: 30px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 3px rgb(155, 149, 149);
+    border-radius: 10px;
+}
+
+.text {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgb(155, 149, 149);
+    border-radius: 10px;
+}
+
+input[type="radio"] {
+    background-color: unset;
+    border: none;
+    padding: 0px;
+}
+
+
+.label {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: white;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.select {
+    box-shadow: 3px 3px 3px rgb(155, 149, 149);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: none;
+}
